@@ -13,36 +13,62 @@ altura = 12.5
 area = (base * altura) / 2
 
 # Salida de numeros
-
 print(f"El numero PI con 1 decimales es: {PI:.1f}")
 
-#Redondear
+# numeros complejos
+num_complejo = 4 + 2j 
+otro_complejo = complex(4.2) 
+
+# Redondear
 area_redondeada = round(area)
 print(f"El area del triangulo redondeada es: {area_redondeada} cm")
 
-#transformaciones
+# transformaciones
 print(float(edad))
 
-#Cadenas de texto
+# Cadenas de texto
 carrera = "Ingenieria Civil en Informatica"
 institucion = "Universidad los Lagos"
+ 
 
-#Imprimir la posicion del caracter
+# Imprimir la posicion del caracter
 print(carrera[0])
 print(carrera[30])
 
-print("Hola" * 4) #Multiplicacion de un string por un entero
+print("Hola" * 4) 
 
-print(carrera[0:11]) #Obteniendo una sub cadena (cortando strings)
+print(carrera[0:11]) 
 
-#Metodo len permite contar caracteres
+# Metodo len permite contar caracteres
 print(len(institucion))
 
-#ARREGLOS (LISTAS)
+# ARREGLOS (LISTAS)
 print("Arreglos de texto")
-
 colores = ["Azul", "Rojo","Verde", "Amarillo" ]
 numeros =[1,2,3,4,5,6]
 
 print(colores)
 print(numeros)
+
+# Boleanos (Logicos)
+interruptor = False
+Luz_electrica = True # Recuerda que los nombres de variables no llevan espacios (bien hecho con el guion bajo)
+
+print("Boleanos")
+print(interruptor)
+print(Luz_electrica)
+
+
+# Type
+print(f"El tipo de datos es {type(num_complejo)}")
+
+# Evaluando datos bool
+print(bool(1))
+print(bool(0))
+print(bool(""))
+print(bool("false"))
+
+#Evaluando numeros con operadores de comparacion
+print (100 <= 50)
+print (10 == 10)
+print(20 < 0)
