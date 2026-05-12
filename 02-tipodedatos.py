@@ -29,7 +29,6 @@ print(float(edad))
 # Cadenas de texto
 carrera = "Ingenieria Civil en Informatica"
 institucion = "Universidad los Lagos"
- 
 
 # Imprimir la posicion del caracter
 print(carrera[0])
@@ -44,43 +43,31 @@ print(len(institucion))
 
 # ARREGLOS (LISTAS)
 print("Arreglos de texto")
-colores = ["Azul", "Rojo","Verde", "Amarillo" ]
-numeros =[1,2,3,4,5,6]
+colores = ["Azul", "Rojo", "Verde", "Amarillo"]
+numeros = [1, 2, 3, 4, 5, 6]
 
 print(colores)
 print(numeros)
 
 # Boleanos (Logicos)
+# Recuerda que los nombres de variables no llevan espacios (bien hecho con el guion bajo)
 interruptor = False
-Luz_electrica = True # Recuerda que los nombres de variables no llevan espacios (bien hecho con el guion bajo)
+Luz_electrica = True 
 
 print("Boleanos")
 print(interruptor)
 print(Luz_electrica)
 
-<<<<<<< HEAD
-# --- CORRECCIONES FINALES ---
-
-# Se agregaron las llaves, comillas y paréntesis faltantes
-print(f"El tipo de datos es {type(num_complejo)}")
-
-# Esto imprimirá False por estar vacío
-=======
-
 # Type
-print(f"El tipo de datos es {type(num_complejo)}")
+print(f"El tipo de datos es {type(num_complejo).__name__}")
 
 # Evaluando datos bool
->>>>>>> 0350c5b (Tipos de datos)
 print(bool(1))
 print(bool(0))
 print(bool(""))
 print(bool("false"))
-<<<<<<< HEAD
-=======
 
-#Evaluando numeros con operadores de comparacion
-print (100 <= 50)
-print (10 == 10)
+# Evaluando numeros con operadores de comparacion
+print(100 <= 50)
+print(10 == 10)
 print(20 < 0)
->>>>>>> 0350c5b (Tipos de datos)
