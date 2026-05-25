@@ -41,3 +41,17 @@ print (ramos)
 # Ordenar los elementos de una lista de una forma descendente a ascendente
 ramos.sort()
 print (ramos)
+
+n.sort ()
+print(n)
+
+#Ordenar elementos de una lista segun la cantidad de caracteres de cada elemento
+ramos.sort(key=len)
+print(ramos)
+
+# Extender una lista apartir de otra
+ramos_segundo_semestre = ["Ciudadania",  "Algebra", "Introduccion a la fisica"]
+print (ramos_segundo_semestre)
+
+ramos.extend(ramos_segundo_semestre)
+print(ramos)
