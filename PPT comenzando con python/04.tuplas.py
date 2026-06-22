@@ -14,5 +14,10 @@ print(datos)
 lista_asignaturas =['Programacion', 'Quimica', 'Introduccion ']
 print(f"LISTA: {lista_asignaturas}")
 
-lista_asignaturas.pop()
-print(f"LISTA CON ELEMENTO ELIMINADO: {lista_asignaturas}")
+#No se puede eliminar con pop una tupla porque es inmutable
+#lista_asignaturas.pop()
+#print(f"LISTA CON ELEMENTO ELIMINADO: {lista_asignaturas}")""""
+
+print(estudiantes.index("Alan"))#se encuentra en la posicion 2
+
+print(sorted(estudiantes))

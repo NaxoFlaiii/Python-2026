@@ -78,3 +78,19 @@ paciente2['nombre'] = 'Miguel'
 print(paciente["nombre"])
 print(paciente2['nombre'])
 print(paciente2)
+
+# Con clear() elimina todos los elementos del diccionario, dejandola vacio (a diferencia del)
+medico2 = medico.copy()
+print("/n===== DICCIONARIO COPIA (MEDICO2)=====")
+print(medico2)
+medico2.clear()
+print(medico2) #-> {}
+
+#MAP REMPLAZA UN BUCLE
+n = [1, 2, 3, 4, 5]
+n_str = list(map(str,n))
+print(f"Lista de numeros como strings: {','.join(n_str)}")
+
+ramos = ["Programacion", "fisica", "calculo", "habilidades comunicativas"]
+long = list(filter(lambda x: len (x) >7, ramos))
+print(long)
