@@ -28,4 +28,5 @@ for fila in range(8):
 
 print(letras)
 
+
 # Código realizado con mi compañero Victor Saldivia
