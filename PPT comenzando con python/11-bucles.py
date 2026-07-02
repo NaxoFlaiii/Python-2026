@@ -51,7 +51,7 @@ print(Fore.MAGENTA + "Cuarto bucle Terminado!")
 #Utilizar el continue
 
 num = 0
-while num<= 50:
+while num<= 50:    
     print(num)
     num +=1
     if num == 40:

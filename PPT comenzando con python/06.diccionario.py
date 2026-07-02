@@ -23,12 +23,12 @@ print(f"====== ficha paciente ===== \n{paciente}")
 # CONSULTA DE INFORMACION A  DICCIONARIIS
 
 # ¿como consulto solo el nombre del pacienyte sin traer el diccionario completo"
-print(f'nombre del paciente a consultar: {paciente['nombre']}')
+print(f"nombre del paciente a consultar: {paciente['nombre']}")
 
 #A diferencia de [], este metodo no genera error si no existe la clave
 #metodo get() obtiene el valor de una clave, si no existe retorna None
 print(paciente.get('nombre'))
-print(paciente.get('rut,' 'N/D(no data)'))
+print(paciente.get('rut', 'N/D(no data)'))
 
 #Retornar las claves, los valores o ambos como pares
 print(paciente.keys()) #dict_keys(["nombre", "edad",....... ]) solo claves
@@ -42,13 +42,13 @@ print(len(paciente))
 #agregar una clave nueva al diccionario paciente
 
 paciente['telefono'] = '+56936361020'
-print(f"====== ficha con telefono ===== /n")
+print(f"====== ficha con telefono ===== \n")
 print(paciente) 
 
 #Sobrescribir y/o actualizar valor de una clave existente
 paciente['edad'] = 20
 
-print("/n==== FICHA PACIENTE CON EDAD ACTUALIZADA ===== /n")
+print("\n==== FICHA PACIENTE CON EDAD ACTUALIZADA ===== \n")
 print(paciente)
 
 # fusiona otro diccionario (a pares clave-valor) en el actual
@@ -81,7 +81,7 @@ print(paciente2)
 
 # Con clear() elimina todos los elementos del diccionario, dejandola vacio (a diferencia del)
 medico2 = medico.copy()
-print("/n===== DICCIONARIO COPIA (MEDICO2)=====")
+print("\n===== DICCIONARIO COPIA (MEDICO2)=====")
 print(medico2)
 medico2.clear()
 print(medico2) #-> {}
@@ -94,3 +94,5 @@ print(f"Lista de numeros como strings: {','.join(n_str)}")
 ramos = ["Programacion", "fisica", "calculo", "habilidades comunicativas"]
 long = list(filter(lambda x: len (x) >7, ramos))
 print(long)
+
+print(paciente.keys())
