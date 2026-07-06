@@ -1,6 +1,6 @@
 # SETS (CONJUNTOS)
 
-# CREANDO LOS PRIMEROS CONJUNTOS
+# CREANDO LOS PRIMEROS CONJUNTOS (Colores primarios y secundarios)
 colores_primarios = {'Azul', 'Rojo', 'Amarillo'}
 colores_secundarios = set({'Naranja', 'Verde', 'violeta'})
 print(type(colores_primarios))
