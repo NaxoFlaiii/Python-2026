@@ -1,4 +1,4 @@
-# Definicion de Variables
+# Definicion de Variables (Nombre, Apellido, Edad)
 nombre = "Ignacio" 
 apellido = "Saez"
 edad = 19
