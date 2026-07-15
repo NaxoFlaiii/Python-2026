@@ -15,5 +15,6 @@ consumo= (consumo_manana + consumo_mediodia + consumo_tarde + consumo_noche)
 promedio = (consumo/4)
 print(f"El consumo de la ram en promedio en el dia es de {promedio}")
 
-diferencia= max(ram) - min(ram)
+diferencia= max(ram) - min(ram) 
+
 print(f"La diferencia del maximo y minimo valor es de {diferencia}")
