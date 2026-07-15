@@ -36,7 +36,7 @@ while True:
     region = input("Ingrese el ID de la region para revisar sus comunas  (12 o 14)Si desea salir escriba 'salir' o 0: ")
     
     if region == "salir" or region == "0":
-        print("¡Hasta luego!")
+        print("Chau")
         break
         
     elif region == "12" :
